@@ -74,6 +74,17 @@ h3{
     margin: 3rem 0;
 }
 
+.footer{
+background-color: var(--primarioOscuro);
+padding: 1rem 0;
+margin-top: 2rem;
+}
+
+.footer__texto{
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    font-size: 2.2rem;
+}
 /* navegacion */
 .navegacion{
 background-color: var(--primarioOscuro);
@@ -88,7 +99,19 @@ la barra de navegación*/
 font-family: var(--fuentePrincipal);
 color: var(--blanco);
 font-size: 3rem;
+/*margin-right: 2rem; separar el contenido del nav
+opcion al iusa del gap*/
+
 }
+
+/*Solucion alternativa al uso del gap
+.navegacion__enlace:last-of-type{
+selecciona el último elemento de un conjunto de mismos elementos
+en este caso el último enlace del nav
+margin-right: 0;
+} 
+*/
+
 
 .navegacion__enlace--activo,
 .navegacion__enlace:hover{
