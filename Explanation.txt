@@ -1,0 +1,23 @@
+BEM
+Block element modifier
+
+--Metodologia para crear codigo reutilizable y ordenado en prpyectos
+
+--Necesita convenciones que evita convensiój de nombres
+
+-Bloques: Contenedor, si una sección sola es significativa y no requiere ottras secciones para su apariencia css debera ir en un bloque 
+
+--elementos son parte de un bloque
+utilizan el nonbre del bloque y después doble guón bajo
+
+<p class="cliente__nombre"> .... </p>
+.cliente__nombre{
+
+}
+
+--modificadores
+es una bandera que avisa que ese elemento tendrá un diseño diferente
+<p class="cliente__nombre--ceo"> .... </p>
+.cliente__nombre--ceo{
+
+}
